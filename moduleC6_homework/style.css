@@ -1,0 +1,123 @@
+body, html {
+	background-color: #5dc0fe;
+}
+.border-bold {
+	border: 2px solid rgb(0, 102, 255) !important;
+}
+
+.chat {
+	height: 70vh !important;
+	overflow-y: auto;
+	scroll-margin-top: 20px;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #21a080 #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+	width: 10px;
+	width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+	border-radius: 5px;
+	background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+	background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+	background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: #21a080;
+
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+	background-color: #62A34B;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+	background-color: #62A34B;
+  }
+  
+.user-message {
+	max-width: 350px;
+	border: 1px solid rgb(173, 207, 255) !important;
+	border-radius: 10px;
+	color: white;
+	margin: 10px 0px;
+	padding: 10px 20px;
+	background-color: #2388c7;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+}
+
+.server-message {
+	max-width: 350px;
+	border: 1px solid rgb(173, 207, 255) !important;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px 0px;
+	background-color: #21a080;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+input {
+	
+	outline: none;
+	color: white;
+	border-radius: 10px !important;
+	border: 2px solid rgb(231, 238, 248) !important;
+	background: #5dc0fe;
+	box-shadow: inset -5px 5px 10px #52a9e0,
+				inset 5px -5px 10px #68d7ff;
+}
+input:focus {
+	border: 3px solid #FFF !important;
+}
+
+.div-neo {
+	border-radius: 20px;
+background: linear-gradient(225deg, #54ade5, #64cdff);
+box-shadow:  -5px 5px 10px #52a9e0,
+             5px -5px 10px #68d7ff;
+}
+
+.neo-chat {
+	border: 2px solid rgb(231, 238, 248) !important;
+	border-radius: 20px;
+background: #5dc0fe;
+box-shadow: inset -5px 5px 10px #52a9e0,
+            inset 5px -5px 10px #68d7ff;
+}
+
+.btn-neo {
+	border: 1px solid rgb(174, 206, 250) !important;
+	color: white !important;
+	border-radius: 10px;
+background: linear-gradient(225deg, #64cdff, #54ade5);
+box-shadow:  -5px 5px 10px #56b3ec,
+             5px -5px 10px #64cdff;
+}
+
+.btn-neo:hover {
+	border: 1px solid rgb(174, 206, 250) !important;
+	color: white !important;
+	border-radius: 10px;
+background: linear-gradient(225deg, #48c0f8, #35a1e4);
+box-shadow:  -5px 5px 10px #56b3ec,
+             5px -5px 10px #64cdff;
+}
